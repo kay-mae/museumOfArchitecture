@@ -1,0 +1,108 @@
+body{
+  background-color: #FBCAEF;
+  /* min-width: 100%; */
+  /* padding-top: 50px; */
+}
+div.text-center{
+  font-weight: 100;
+  font-size: 2rem;
+}
+nav{
+  font-size: 1.5rem;
+  height: 2rem;
+  padding: 0 16px;
+  width: 90%;
+}
+nav.navbar.navbar-expand-xl.fixed-top{
+  padding:  0;
+  margin: 7px 0;
+  /* height: 10rem; */
+}
+p{
+  margin: 0;
+}
+a.navbar-brand{
+  color: purple;
+}
+img.col-md-6.img-fluid{
+  /* padding: 0 0; */
+  /* height: 10px; */
+  padding:0  0 0 0  ;
+}
+img.img-fluid{
+  width: 100%;
+}
+div.container-fluid{
+  padding:  0;
+  padding-top: 0;
+}
+div.col-lg-6{
+  padding: 0;
+}
+div.col-md-6{
+  padding: 0;
+}
+div.img.container.container-sm.container-fluid{
+  width: 90%;
+}
+.col-sm-6{
+  padding: 10px 0;
+}
+a{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+    font-size: 1.5rem;
+
+}
+a.nav-link:hover{
+  color: purple;
+}
+.mainTxt{
+  text-transform: uppercase;
+  color: white;
+  /* padding: 10px 10px; */
+}
+.row.justify-content-center{
+  font-weight: 100;
+  font-size: 1rem;
+}
+.container{
+  width: 100%;
+  /* display: flex; */
+
+}
+.row{
+
+    text-align: center;
+    /* min-width: 100%; */
+    padding:0;
+    margin:0;
+
+}
+#red{
+  color: red;
+}
+img{
+  /* max-width: 100%; */
+}
+
+@media (max-width: 1150px){
+  /* body{
+    background-color: orange;
+  } */
+  div.text-center{
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 950px){
+  /* body{
+    background-color: pink;
+  } */
+  div.text-center{
+    font-weight: 100;
+    font-size: 1.25rem;
+  }
